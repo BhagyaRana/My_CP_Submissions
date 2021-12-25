@@ -1,0 +1,13 @@
+For getting full 50 points: ( O(M*H) )
+1. Find the number of squares without the extra line. 
+2. next iterate from 0 to H and calculate the maximum number of new squares for a particular value. 
+3. add both of them.
+
+how we will decide y, there they have taken 4, but how would we decide
+
+iterate from 0 to H(along the Y-axis) and where you find a point where the number of new squares with different sides are maximum, that point is your  "y".
+
+Yes, it would work. Although writing a program for that is not so straightforward. (Reason is that you would have to check for the condition y = k &  k != bi. But if you can do it that way, you can improve your time complexity by a small margin and may pass 2-3 test cases from the 2nd part.
+
+
+as you are finding number of square for each differnce, so print the difference which lead to max number of square...

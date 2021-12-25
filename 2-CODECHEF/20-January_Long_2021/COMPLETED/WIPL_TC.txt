@@ -1,0 +1,55 @@
+Test Case:
+7
+5 20
+5 11 4 9 12
+4 18
+9 3 12 15
+5 24
+4 9 16 15 20
+6 25
+18 13 17 8 4 1
+10 60
+5 6 7 8 9 11 12 13 14 15
+6 16
+8 7 6 5 4 2
+10 40
+14 3 7 8 9 7 12 15 10 6
+
+
+Right Answer:
+
+5
+4
+4
+4
+-1
+6
+8
+
+
+2
+8 10
+9 8 4 3 1 1 1 1 
+8 10
+9 8 7 1 1 1 1 1
+
+
+1
+5 24
+2 4 10 16 18
+your output must be 5 not -1
+
+1
+5 101
+1 5 95 96 100
+for this case and will be 4 {100,5} and {95,96}
+
+You can divide the set into two subsets with minimum difference and if (total sum - diff)/2 >=k then yeah we can divide that set into two subsets with at least height of k else repeat this step after adding one more element.I think this will help you.
+
+10 10 30 70 80 , for k = 100 ,ans will be 5 {80,10,10} and {70,30} with minimum difference with 0
+1
+5 100
+10 10 30 70 80
+
+
+

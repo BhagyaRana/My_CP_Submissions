@@ -1,0 +1,5 @@
+0
+aa and aa
+1
+abab and cdccdc
+1

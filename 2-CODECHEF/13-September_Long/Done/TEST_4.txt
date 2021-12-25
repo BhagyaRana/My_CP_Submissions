@@ -1,0 +1,95 @@
+TEST :
+20
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+OUTPUT :
+
+1 -> 0
+2 -> 0
+nice_swp is : 1
+suffix is : 3
+i is : 3
+Suffix=Half_Sum
+i is : 2
+inp is : 1
+3 -> 2
+
+nice_swp is : 2
+suffix is : 7
+i is : 3
+4 -> 2
+
+5 -> 0
+6 -> 0
+
+nice_swp is : 3
+suffix is : 18
+i is : 5
+7 -> 3
+
+nice_swp is : 3
+suffix is : 21
+i is : 6
+8 -> 3
+
+9 -> 0
+10 -> 0
+
+nice_swp is : 4
+suffix is : 38
+i is : 8
+11 -> 4
+
+nice_swp is : 4
+suffix is : 42
+i is : 9
+12 -> 4
+
+13 -> 0
+14 -> 0
+nice_swp is : 5
+suffix is : 65
+i is : 11
+15 -> 5
+
+nice_swp is : 5
+suffix is : 70
+i is : 12
+16 -> 5
+
+17 -> 0
+18 -> 0
+
+nice_swp is : 6
+suffix is : 99
+i is : 14
+19 -> 6
+
+nice_swp is : 6
+suffix is : 105
+i is : 15
+Suffix=Half_Sum
+i is : 14
+inp is : 6
+20 -> 112
+
+

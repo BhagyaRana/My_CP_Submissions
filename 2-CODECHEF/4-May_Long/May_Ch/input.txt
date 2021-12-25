@@ -1,0 +1,7 @@
+2
+7
+abcbaba
+aaabaaa
+5
+aabab
+aabab

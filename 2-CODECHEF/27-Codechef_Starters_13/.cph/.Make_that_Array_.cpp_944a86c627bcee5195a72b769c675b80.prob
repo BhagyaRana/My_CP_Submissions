@@ -1,0 +1,1 @@
+{"name":"Local: Make_that_Array_","url":"c:\\Users\\Admin\\Desktop\\CCS13\\Make_that_Array_.cpp","tests":[{"id":1632676957149,"input":"3\n2\n1 2\n2 1\n3\n3 2 1\n1 2 3\n3\n1 2 3\n1 2 3","output":"-1\n4\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Admin\\Desktop\\CCS13\\Make_that_Array_.cpp","group":"local","local":true}

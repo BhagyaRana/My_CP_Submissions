@@ -1,0 +1,6 @@
+1 4 4 4 4 
+
+If Largest Element Comes Odd Times :: 2^n
+
+If Even : Let it Occur X Times :
+Then (2^n - (2^(n-X) * (X)C(X/2)))
