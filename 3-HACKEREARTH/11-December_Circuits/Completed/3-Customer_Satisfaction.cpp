@@ -1,0 +1,139 @@
+// HEADERS AND NAMESPACE
+#include <bits/stdc++.h>
+using namespace std;
+
+//CONSTANTS
+const int mod = 1000000007;
+// const int mod = 998244353;
+
+//LOOPS
+// 0 based indexing
+#define for0(i, n) for (int i = 0; i < (int)(n); ++i)
+// 1 based indexing
+#define for1(i, n) for (int i = 1; i <= (int)(n); ++i)
+// closed interver from l to r r inclusive
+#define forc(i, l, r) for (int i = (int)(l); i <= (int)(r); ++i)
+
+//SHORT HAND
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+#define all(x) (x).begin(), (x).end() //Forward traversal
+
+//FIND
+// find if a given value is present in a container. Container version.
+// Runs in log(n) for set and map
+#define present(c, x) ((c).find(x) != (c).end())
+//find version works for all containers. This is present in std namespace.
+#define cpresent(c, x) (find(all(c), x) != (c).end())
+
+#define endl "\n"
+
+// COMMONLY USED TYPES
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef pair<int, int> pi;
+typedef pair<ll, ll> pl;
+typedef vector<pi> vpi;
+typedef vector<pl> vpl;
+
+#define max(a, b) (a < b ? b : a)
+#define min(a, b) ((a > b) ? b : a)
+ll gcd(ll a, ll b)
+{
+    return b ? gcd(b, a % b) : a;
+}
+
+// Avoiding wrap around of size()-1 where size is a unsigned int.
+#define sz(a) int((a).size())
+#define watch(x) cout << (#x) << " is : " << (x) << "\n"
+#define watch2(x, y) cout << (#x) << " is " << (x) << " and " << (#y) << " is " << (y) << "\n"
+
+void b_v_r()
+{
+#ifndef MY_ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+}
+
+// All Variables Here
+
+// All Functions Here
+void solve()
+{
+    ll n;
+    cin >> n;
+
+    vll l(n + 1, 0);
+    vll r(n + 1, 0);
+    vll z(n + 1, 0);
+
+    map<ll, ll> mp;
+
+    for1(i, n)
+    {
+        cin >> l[i] >> r[i] >> z[i];
+        mp[r[i]] += z[i];
+    }
+
+    vector<pair<ll, ll>> myvec;
+
+    ll ans = 0;
+    bool flag = true;
+    for (auto x : mp)
+    {
+        // cout << x.first << " " << x.second << endl;
+        myvec.push_back({x.first, x.second});
+    }
+    ll sz = myvec.size();
+    ll old = 0;
+    for (int i = 0; i < sz; i++)
+    {
+        if (i == 0)
+        {
+            ll t = ceil(((double)myvec[i].second) / ((double)myvec[i].first));
+            // watch(t);
+            ans = max(ans, t);
+            old = myvec[i].second;
+        }
+        else
+        {
+            ll t2 = ceil(((double)(myvec[i].second + old)) / ((double)myvec[i].first));
+            // watch(t2);
+            ans = max(ans, t2);
+            old += myvec[i].second;
+        }
+    }
+    cout << ans << endl;
+
+    return;
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    // b_v_r();
+    int tc = 1;
+    cin >> tc;
+    // If No Test Case, Then Comment it!
+    while (tc--)
+    {
+        solve();
+    }
+
+    return 0;
+}
+
+// 1
+// 5
+// 1 3 5
+// 1 4 7
+// 1 6 7
+// 1 7 3
+// 1 8 1
+
+// W = 4

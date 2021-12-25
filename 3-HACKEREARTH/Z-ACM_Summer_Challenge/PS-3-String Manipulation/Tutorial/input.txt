@@ -1,0 +1,4 @@
+3
+/abc/bcd/
+/abc/bcd//aod/
+//abc/bcd/aod//

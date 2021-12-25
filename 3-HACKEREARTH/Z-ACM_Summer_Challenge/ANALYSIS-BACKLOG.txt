@@ -1,0 +1,63 @@
+ACM SUMMER CHALLENGE TRUTH
+
+BASIC OF I/O AND IMPLEMENTATION
+1-Does It Lie On parabola 	(MYSELF)	
+2-Wait for It! 			(MYSELF)
+3-Mike In Lockdown 		(MYSELF)
+	
+ARRAY MANIPULATION
+4-My team always wins! 		(MYSELF)
+5-Under Attack 			(SANJIT - CODE)
+6-K-Times Array 		(MYSELF)
+ 	
+STRING MANIPULATION
+7-Will of Strings!	-----	(INTERNET - MANACHER ALGO) 	
+8-Ignore the comments 		(MYSELF - HINT(PARVA))
+9-Counting			(MYSELF)
+ 	
+SEARCHING ALGORITHMS
+10-Assignments!! 		(MYSELF)
+11-Hack the solution 	-----	(MYSELF - INTERNET)(GFG - INVERSIONS)
+12-Dr. Stone's Formula	-----	(MYSELF - INTERNET)(GFG - FIBONACCI SERIES)
+ 	
+SORTING ALGORITHMS
+13-Victor In Georgopol		(MYSELF) 		
+14-Goku and discount 		(MYSELF - HINT(GAURAV - Sum))		
+15-Dr. Programmer 		(MYSELF - HINT(HARSH - Code + Debug))
+
+BASIC DS - STACKS AND QUEUES
+16-The Ant Man			(MYSELF - HINT(HARSH - Logic))	 	
+17-Icha Icha tactics 		(MYSELF - HINT(HARSH - Balanced Parenthesis - 11 Case))	 
+18-Jake Peralta's Case 	-----	(MYSELF - HINT(PARVA - Code))	 
+
+STL
+19-House Painting 		(MYSELF)
+20-Alice and Bob 		(MYSELF)
+21-Survival test 		(MYSELF)
+
+HASHING TECHNIQUE
+22-Ender's Game 		  -----	(CODE - PARVA)
+23-Ancient Problems Require(Hard) -----	(CODE - PARVA)
+24-Ancient Problems Require(Easy) ----- (CODE - PARVA)
+
+BIT MANIPULATION
+25-Luffy's Food Obsession -----	(CODE - HARSH)
+26-Gogi				(MYSELF) 	
+27-Is Lower_Bound Possible?-----(MYSELF - INTERNET(CODEFORCES 595 C1))
+
+ELEMENTARY AND INTERMEDIATE MATHEMATICS (MODULO AND COMBINATORICS)
+28-Gotta Catch 'Em All !    	(MYSELF - HINT(GAURAV)) 	
+29-Find pattern 	  -----	(CODE - PARVA)
+30-Maximize the operation -----	(MYSELF - INTERNET(GFG))
+31-Ghoul's Dice 		(MYSELF)
+
+RECURSION AND BASIC DYNAMIC PROGRAMMING
+32-The Chocolate Boy 	  ----- (CODE - PARVA)
+33-Harry Potter And Spells 	(MYSELF - HINT(PARVA))
+34-Loki and the Tesseract -----	(CODE - PARVA)
+
+TREES AND GRAPH
+35-Very Easy 			(MYSELF - INTERNET(GFG))
+36-The Big News 		(MYSELF - HINT(PARVA))
+37-Wandering at the endofACM ---(CODE - PARVA)
+38-Aomine's Last Game 		(CODE - HARSH)
