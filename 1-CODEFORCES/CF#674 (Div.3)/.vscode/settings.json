@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "valarray": "cpp",
+        "regex": "cpp"
+    }
+}
