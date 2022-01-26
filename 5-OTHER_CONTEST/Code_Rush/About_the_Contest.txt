@@ -1,0 +1,18 @@
+40 students will get a mentorship call for their upcoming Placement/Internship season.
+
+🎓 Top 3 Winners - INR 4500
+💰 Winner ( Juniors ) - INR 750
+💰 Women overall winner - INR 750
+💰 Winner ( Non CS ) - INR 750
+
+Contest Link : https://www.hackerrank.com/coderush-nit-surat-2022
+
+Editorials: https://bit.ly/CodeRush-Editorials
+
+CodeRush Editorials - Problem 5 and 6 went unsolved 😬 
+
+🤯The interesting part is all the 6 problems could have been solved if one just knows how to implement BFS.
+
+Rank - 13
+
+Upsolved? -> Yes, 5 Out of 6 Questions.
